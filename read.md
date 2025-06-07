@@ -103,7 +103,8 @@ CREATE TABLE classes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     instructor VARCHAR(100),
-    available_slots INT
+    available_slots INT,
+    class_time DATETIME
 );
 
 CREATE TABLE bookings (
