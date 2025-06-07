@@ -1,0 +1,19 @@
+2025-06-07 13:34:03,895,895 WARNING  [_internal.py:97]  * Debugger is active!
+2025-06-07 13:34:03,901,901 INFO     [_internal.py:97]  * Debugger PIN: 132-628-317
+2025-06-07 13:34:42,576,576 INFO     [bookingApi.py:31] Fetched classes with timezone adjustment to Asia/Kolkata
+2025-06-07 13:34:42,578,578 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:34:42] "GET /classes HTTP/1.1" 200 -
+2025-06-07 13:35:56,422,422 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:35:56] "[31m[1mGET /book HTTP/1.1[0m" 405 -
+2025-06-07 13:36:08,207,207 INFO     [bookingApi.py:86] Booking successful for Ram in class 1
+2025-06-07 13:36:08,208,208 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:36:08] "[35m[1mPOST /book HTTP/1.1[0m" 201 -
+2025-06-07 13:36:51,227,227 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:36:51] "[31m[1mPOST /book HTTP/1.1[0m" 400 -
+2025-06-07 13:52:19,113,113 INFO     [bookingApi.py:117] Fetched all bookings.
+2025-06-07 13:52:19,114,114 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:52:19] "GET /bookings HTTP/1.1" 200 -
+2025-06-07 13:54:04,648,648 INFO     [bookingApi.py:117] Fetched all bookings.
+2025-06-07 13:54:04,649,649 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:54:04] "GET /bookings HTTP/1.1" 200 -
+2025-06-07 13:54:32,704,704 INFO     [bookingApi.py:111] Fetched bookings for email: raju@gmail.com
+2025-06-07 13:54:32,705,705 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 13:54:32] "GET /bookings?email=raju@gmail.com HTTP/1.1" 200 -
+2025-06-07 14:01:17,629,629 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 14:01:17] "[31m[1mPOST /book HTTP/1.1[0m" 400 -
+2025-06-07 14:02:28,380,380 INFO     [bookingApi.py:117] Fetched all bookings.
+2025-06-07 14:02:28,382,382 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 14:02:28] "GET /bookings HTTP/1.1" 200 -
+2025-06-07 14:02:56,717,717 INFO     [bookingApi.py:111] Fetched bookings for email: divya@gmail.com
+2025-06-07 14:02:56,718,718 INFO     [_internal.py:97] 127.0.0.1 - - [07/Jun/2025 14:02:56] "GET /bookings?email=divya@gmail.com HTTP/1.1" 200 -
